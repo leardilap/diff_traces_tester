@@ -1,0 +1,1999 @@
+EESchema Schematic File Version 4
+LIBS:diff_traces_tester-cache
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title "diff_traces_tester"
+Date "2019-10-20"
+Rev "A"
+Comp ""
+Comment1 "Luis Ardila"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	2150 6050 1100 6050
+Wire Wire Line
+	2150 1700 1100 1700
+Text Notes 1250 5700 0    50   ~ 0
+microstrip straight
+Text Notes 1200 1350 0    50   ~ 0
+microstrip 45' corners
+Wire Wire Line
+	2150 3900 1100 3900
+Wire Wire Line
+	2150 5050 1100 5050
+Text Notes 1250 4700 0    50   ~ 0
+microstrip zig zag
+Text Notes 1150 3550 0    50   ~ 0
+microstrip round corners
+Text Notes 6250 1100 0    100  ~ 0
+two stiching vias
+Text Notes 1450 1050 0    100  ~ 0
+no via
+Wire Wire Line
+	7400 1750 6350 1750
+Text Notes 6400 1400 0    50   ~ 0
+microstrip 45' corners
+Wire Wire Line
+	10000 1750 8950 1750
+Text Notes 9050 1350 0    50   ~ 0
+microstrip 45' corners
+Text Notes 8850 1100 0    100  ~ 0
+four stiching vias
+Text Notes 1800 2500 0    50   ~ 0
+microstrip 45' corners
+Wire Wire Line
+	2150 2800 1800 2800
+$Comp
+L Device:C C2
+U 1 1 5DC77E58
+P 1650 2800
+F 0 "C2" V 1500 2800 50  0000 C CNN
+F 1 "0.1uF" V 1400 2800 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1688 2650 50  0001 C CNN
+F 3 "~" H 1650 2800 50  0001 C CNN
+	1    1650 2800
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	1500 2800 1100 2800
+$Comp
+L Device:C C1
+U 1 1 5DC78740
+P 1650 2600
+F 0 "C1" V 1398 2600 50  0000 C CNN
+F 1 "0.1uF" V 1489 2600 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1688 2450 50  0001 C CNN
+F 3 "~" H 1650 2600 50  0001 C CNN
+	1    1650 2600
+	0    1    1    0   
+$EndComp
+Text Notes 9650 2550 0    50   ~ 0
+microstrip 45' corners
+Wire Wire Line
+	10000 3850 9650 3850
+Text Notes 9650 3550 0    50   ~ 0
+microstrip round corners
+Wire Wire Line
+	10000 2850 9650 2850
+$Comp
+L Device:C C8
+U 1 1 5DCD07A6
+P 9500 2850
+F 0 "C8" V 9350 2850 50  0000 C CNN
+F 1 "0.1uF" V 9250 2850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9538 2700 50  0001 C CNN
+F 3 "~" H 9500 2850 50  0001 C CNN
+	1    9500 2850
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	9350 2850 8950 2850
+$Comp
+L Device:C C7
+U 1 1 5DCD07AD
+P 9500 2650
+F 0 "C7" V 9248 2650 50  0000 C CNN
+F 1 "0.1uF" V 9339 2650 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9538 2500 50  0001 C CNN
+F 3 "~" H 9500 2650 50  0001 C CNN
+	1    9500 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C9
+U 1 1 5DCD07B4
+P 9500 3650
+F 0 "C9" V 9248 3650 50  0000 C CNN
+F 1 "0.1uF" V 9339 3650 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9538 3500 50  0001 C CNN
+F 3 "~" H 9500 3650 50  0001 C CNN
+	1    9500 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C10
+U 1 1 5DCD07BB
+P 9500 3850
+F 0 "C10" V 9350 3850 50  0000 C CNN
+F 1 "0.1uF" V 9250 3850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9538 3700 50  0001 C CNN
+F 3 "~" H 9500 3850 50  0001 C CNN
+	1    9500 3850
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	9350 3850 8950 3850
+Wire Wire Line
+	10000 4850 9650 4850
+Text Notes 9650 4550 0    50   ~ 0
+microstrip zig zag
+$Comp
+L Device:C C11
+U 1 1 5DD3B567
+P 9500 4650
+F 0 "C11" V 9248 4650 50  0000 C CNN
+F 1 "0.1uF" V 9339 4650 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9538 4500 50  0001 C CNN
+F 3 "~" H 9500 4650 50  0001 C CNN
+	1    9500 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C12
+U 1 1 5DD3B56E
+P 9500 4850
+F 0 "C12" V 9350 4850 50  0000 C CNN
+F 1 "0.1uF" V 9250 4850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9538 4700 50  0001 C CNN
+F 3 "~" H 9500 4850 50  0001 C CNN
+	1    9500 4850
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	9350 4850 8950 4850
+Text Label 1400 5850 0    50   ~ 0
+MS_straight_P
+Text Label 1400 6050 0    50   ~ 0
+MS_straight_N
+Text Label 1450 1500 0    50   ~ 0
+MS_45_P
+Text Label 1450 1700 0    50   ~ 0
+MS_45_N
+Text Label 1450 3700 0    50   ~ 0
+MS_round_P
+Text Label 1450 3900 0    50   ~ 0
+MS_round_N
+Text Label 1350 4850 0    50   ~ 0
+MS_ZigZag_P
+Text Label 1350 5050 0    50   ~ 0
+MS_ZigZag_N
+Text Label 6550 1550 0    50   ~ 0
+MS_45_2Stitch_P
+Text Label 6550 1750 0    50   ~ 0
+MS_45_2Stitch_N
+Text Label 9150 1550 0    50   ~ 0
+MS_45_4Stitch_P
+Text Label 9150 1750 0    50   ~ 0
+MS_45_4Stitch_N
+Text Label 1150 2600 0    20   ~ 0
+MS_45_NoVia_Cap_A_P
+Text Label 1150 2800 0    20   ~ 0
+MS_45_NoVia_Cap_A_N
+Text Label 1800 2600 0    20   ~ 0
+MS_45_NoVia_Cap_B_P
+Text Label 1800 2800 0    20   ~ 0
+MS_45_NoVia_Cap_B_N
+Text Label 9650 2650 0    20   ~ 0
+MS_45_4Stich_Cap_B_P
+Text Label 9650 2850 0    20   ~ 0
+MS_45_4Stich_Cap_B_N
+Text Label 8950 2850 0    20   ~ 0
+MS_45_4Stich_Cap_A_N
+Text Label 8950 2650 0    20   ~ 0
+MS_45_4Stich_Cap_A_P
+Text Label 8950 3650 0    20   ~ 0
+MS_round_4Stich_Cap_A_P
+Text Label 8950 3850 0    20   ~ 0
+MS_round_4Stich_Cap_A_N
+Text Label 9650 3650 0    20   ~ 0
+MS_round_4Stich_Cap_B_P
+Text Label 9650 3850 0    20   ~ 0
+MS_round_4Stich_Cap_B_N
+Text Label 8950 4650 0    20   ~ 0
+MS_ZigZag_4Stich_Cap_A_P
+Text Label 8950 4850 0    20   ~ 0
+MS_ZigZag_4Stich_Cap_A_N
+Text Label 9650 4650 0    20   ~ 0
+MS_ZigZag_4Stich_Cap_B_P
+Text Label 9650 4850 0    20   ~ 0
+MS_ZigZag_4Stich_Cap_B_N
+Wire Notes Line
+	11350 600  11350 9450
+Wire Notes Line
+	15500 600  15500 9450
+Wire Notes Line
+	11350 9450 15500 9450
+Text Notes 11650 6900 0    100  ~ 0
+Take the 4 stiching via 45 degre corners\n between 0201 caps, gnd voids and 0603 res
+$Comp
+L Device:R R17
+U 1 1 5DC289D6
+P 13300 7400
+F 0 "R17" V 13093 7400 50  0000 C CNN
+F 1 "0" V 13184 7400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 13230 7400 50  0001 C CNN
+F 3 "~" H 13300 7400 50  0001 C CNN
+F 4 "" H 13300 7400 50  0001 C CNN "Supplier"
+	1    13300 7400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R18
+U 1 1 5DC289CF
+P 13300 7600
+F 0 "R18" V 13400 7600 50  0000 C CNN
+F 1 "0" V 13500 7600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 13230 7600 50  0001 C CNN
+F 3 "~" H 13300 7600 50  0001 C CNN
+F 4 "" H 13300 7600 50  0001 C CNN "Supplier"
+	1    13300 7600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R25
+U 1 1 5DC289C8
+P 13900 7400
+F 0 "R25" V 13693 7400 50  0000 C CNN
+F 1 "0" V 13784 7400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 13830 7400 50  0001 C CNN
+F 3 "~" H 13900 7400 50  0001 C CNN
+F 4 "" H 13900 7400 50  0001 C CNN "Supplier"
+	1    13900 7400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R26
+U 1 1 5DC289C1
+P 13900 7600
+F 0 "R26" V 14000 7600 50  0000 C CNN
+F 1 "0" V 14100 7600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 13830 7600 50  0001 C CNN
+F 3 "~" H 13900 7600 50  0001 C CNN
+F 4 "" H 13900 7600 50  0001 C CNN "Supplier"
+	1    13900 7600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C27
+U 1 1 5DC289B3
+P 13600 7400
+F 0 "C27" V 13348 7400 50  0000 C CNN
+F 1 "0.1uF" V 13439 7400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 13638 7250 50  0001 C CNN
+F 3 "~" H 13600 7400 50  0001 C CNN
+	1    13600 7400
+	0    1    1    0   
+$EndComp
+Wire Notes Line
+	11350 6500 15500 6500
+Wire Notes Line
+	15500 600  11350 600 
+Wire Notes Line
+	11350 3650 15500 3650
+Text Notes 12050 4100 0    100  ~ 0
+Take the 4 stiching via 45 degre corners\n0.3 mm separation between 0402 caps \nand 0603 resistors
+Text Notes 12000 1000 0    100  ~ 0
+Take the 4 stiching via 45 degre corners\n0.5 mm separation between 0402 caps
+$Comp
+L Device:R R15
+U 1 1 5DB4AB35
+P 13150 2850
+F 0 "R15" V 12943 2850 50  0000 C CNN
+F 1 "0" V 13034 2850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 13080 2850 50  0001 C CNN
+F 3 "~" H 13150 2850 50  0001 C CNN
+F 4 "" H 13150 2850 50  0001 C CNN "Supplier"
+	1    13150 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R16
+U 1 1 5DB4AB2E
+P 13150 3050
+F 0 "R16" V 13250 3050 50  0000 C CNN
+F 1 "0" V 13350 3050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 13080 3050 50  0001 C CNN
+F 3 "~" H 13150 3050 50  0001 C CNN
+F 4 "" H 13150 3050 50  0001 C CNN "Supplier"
+	1    13150 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R23
+U 1 1 5DB4AB27
+P 13750 2850
+F 0 "R23" V 13543 2850 50  0000 C CNN
+F 1 "0" V 13634 2850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 13680 2850 50  0001 C CNN
+F 3 "~" H 13750 2850 50  0001 C CNN
+F 4 "" H 13750 2850 50  0001 C CNN "Supplier"
+	1    13750 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R24
+U 1 1 5DB4AB20
+P 13750 3050
+F 0 "R24" V 13850 3050 50  0000 C CNN
+F 1 "0" V 13950 3050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 13680 3050 50  0001 C CNN
+F 3 "~" H 13750 3050 50  0001 C CNN
+F 4 "" H 13750 3050 50  0001 C CNN "Supplier"
+	1    13750 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C25
+U 1 1 5DB4AB12
+P 13450 2850
+F 0 "C25" V 13198 2850 50  0000 C CNN
+F 1 "0.1uF" V 13289 2850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 13488 2700 50  0001 C CNN
+F 3 "~" H 13450 2850 50  0001 C CNN
+	1    13450 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C26
+U 1 1 5DB4AB0C
+P 13450 3050
+F 0 "C26" V 13300 3050 50  0000 C CNN
+F 1 "0.1uF" V 13200 3050 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 13488 2900 50  0001 C CNN
+F 3 "~" H 13450 3050 50  0001 C CNN
+	1    13450 3050
+	0    1    -1   0   
+$EndComp
+Text Notes 13250 2450 0    50   ~ 0
+GND void
+Text Notes 13250 1250 0    50   ~ 0
+0402 resistors
+$Comp
+L Device:C C13
+U 1 1 5DD1757E
+P 13450 1650
+F 0 "C13" V 13198 1650 50  0000 C CNN
+F 1 "0.1uF" V 13289 1650 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 13488 1500 50  0001 C CNN
+F 3 "~" H 13450 1650 50  0001 C CNN
+	1    13450 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C14
+U 1 1 5DD17577
+P 13450 1850
+F 0 "C14" V 13300 1850 50  0000 C CNN
+F 1 "0.1uF" V 13200 1850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 13488 1700 50  0001 C CNN
+F 3 "~" H 13450 1850 50  0001 C CNN
+	1    13450 1850
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5DD5F378
+P 13750 1850
+F 0 "R6" V 13850 1850 50  0000 C CNN
+F 1 "0" V 13950 1850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 13680 1850 50  0001 C CNN
+F 3 "~" H 13750 1850 50  0001 C CNN
+F 4 "" H 13750 1850 50  0001 C CNN "Supplier"
+	1    13750 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5DD4EADD
+P 13750 1650
+F 0 "R5" V 13543 1650 50  0000 C CNN
+F 1 "0" V 13634 1650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 13680 1650 50  0001 C CNN
+F 3 "~" H 13750 1650 50  0001 C CNN
+F 4 "" H 13750 1650 50  0001 C CNN "Supplier"
+	1    13750 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5DD5A226
+P 13150 1650
+F 0 "R1" V 12943 1650 50  0000 C CNN
+F 1 "0" V 13034 1650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 13080 1650 50  0001 C CNN
+F 3 "~" H 13150 1650 50  0001 C CNN
+F 4 "" H 13150 1650 50  0001 C CNN "Supplier"
+	1    13150 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5DD658FD
+P 13150 1850
+F 0 "R2" V 13250 1850 50  0000 C CNN
+F 1 "0" V 13350 1850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 13080 1850 50  0001 C CNN
+F 3 "~" H 13150 1850 50  0001 C CNN
+F 4 "" H 13150 1850 50  0001 C CNN "Supplier"
+	1    13150 1850
+	0    1    1    0   
+$EndComp
+Text Label 13300 1650 0    20   ~ 0
+1_A_P
+Text Label 13600 1650 2    20   ~ 0
+1_B_P
+Text Label 13600 1850 2    20   ~ 0
+1_B_N
+Text Label 13300 1850 0    20   ~ 0
+1_A_N
+Text Label 13300 2850 0    20   ~ 0
+4_A_P
+Text Label 13600 2850 2    20   ~ 0
+4_B_P
+Text Label 13300 3050 0    20   ~ 0
+4_A_N
+Text Label 13600 3050 2    20   ~ 0
+4_B_N
+Text Label 13300 5050 0    20   ~ 0
+5_A_P
+Text Label 13600 5050 2    20   ~ 0
+5_B_P
+Text Label 13300 5250 0    20   ~ 0
+5_A_N
+Text Label 13600 5250 2    20   ~ 0
+5_B_N
+Text Label 13450 7400 0    20   ~ 0
+7_A_P
+Text Label 13750 7400 2    20   ~ 0
+7_B_P
+Text Label 13450 7600 0    20   ~ 0
+7_A_N
+Text Label 13750 7600 2    20   ~ 0
+7_B_N
+Text Label 13450 8700 0    20   ~ 0
+8_A_P
+Text Label 13750 8700 2    20   ~ 0
+8_B_P
+Text Label 13450 8900 0    20   ~ 0
+8_A_N
+Text Label 13750 8900 2    20   ~ 0
+8_B_N
+$Comp
+L Device:R R9
+U 1 1 5E13BBB0
+P 13150 5050
+F 0 "R9" V 12943 5050 50  0000 C CNN
+F 1 "0" V 13034 5050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 13080 5050 50  0001 C CNN
+F 3 "~" H 13150 5050 50  0001 C CNN
+F 4 "" H 13150 5050 50  0001 C CNN "Supplier"
+	1    13150 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 5E13BBB7
+P 13150 5250
+F 0 "R10" V 13250 5250 50  0000 C CNN
+F 1 "0" V 13350 5250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 13080 5250 50  0001 C CNN
+F 3 "~" H 13150 5250 50  0001 C CNN
+F 4 "" H 13150 5250 50  0001 C CNN "Supplier"
+	1    13150 5250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 5E13BBBE
+P 13750 5050
+F 0 "R11" V 13543 5050 50  0000 C CNN
+F 1 "0" V 13634 5050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 13680 5050 50  0001 C CNN
+F 3 "~" H 13750 5050 50  0001 C CNN
+F 4 "" H 13750 5050 50  0001 C CNN "Supplier"
+	1    13750 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 5E13BBC5
+P 13750 5250
+F 0 "R12" V 13850 5250 50  0000 C CNN
+F 1 "0" V 13950 5250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 13680 5250 50  0001 C CNN
+F 3 "~" H 13750 5250 50  0001 C CNN
+F 4 "" H 13750 5250 50  0001 C CNN "Supplier"
+	1    13750 5250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C21
+U 1 1 5E13BBCB
+P 13450 5050
+F 0 "C21" V 13198 5050 50  0000 C CNN
+F 1 "0.1uF" V 13289 5050 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 13488 4900 50  0001 C CNN
+F 3 "~" H 13450 5050 50  0001 C CNN
+	1    13450 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C22
+U 1 1 5E13BBD1
+P 13450 5250
+F 0 "C22" V 13300 5250 50  0000 C CNN
+F 1 "0.1uF" V 13200 5250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 13488 5100 50  0001 C CNN
+F 3 "~" H 13450 5250 50  0001 C CNN
+	1    13450 5250
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R19
+U 1 1 5E154437
+P 13300 8700
+F 0 "R19" V 13093 8700 50  0000 C CNN
+F 1 "0" V 13184 8700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 13230 8700 50  0001 C CNN
+F 3 "~" H 13300 8700 50  0001 C CNN
+F 4 "" H 13300 8700 50  0001 C CNN "Supplier"
+	1    13300 8700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R20
+U 1 1 5E15443E
+P 13300 8900
+F 0 "R20" V 13400 8900 50  0000 C CNN
+F 1 "0" V 13500 8900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 13230 8900 50  0001 C CNN
+F 3 "~" H 13300 8900 50  0001 C CNN
+F 4 "" H 13300 8900 50  0001 C CNN "Supplier"
+	1    13300 8900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R27
+U 1 1 5E154445
+P 13900 8700
+F 0 "R27" V 13693 8700 50  0000 C CNN
+F 1 "0" V 13784 8700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 13830 8700 50  0001 C CNN
+F 3 "~" H 13900 8700 50  0001 C CNN
+F 4 "" H 13900 8700 50  0001 C CNN "Supplier"
+	1    13900 8700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R28
+U 1 1 5E15444C
+P 13900 8900
+F 0 "R28" V 14000 8900 50  0000 C CNN
+F 1 "0" V 14100 8900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 13830 8900 50  0001 C CNN
+F 3 "~" H 13900 8900 50  0001 C CNN
+F 4 "" H 13900 8900 50  0001 C CNN "Supplier"
+	1    13900 8900
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J16
+U 1 1 5E1D897C
+P 2600 1500
+F 0 "J16" H 2500 1650 50  0000 L CNN
+F 1 "Conn_Coaxial" H 2700 1384 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 2600 1500 50  0001 C CNN
+F 3 " ~" H 2600 1500 50  0001 C CNN
+	1    2600 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J11
+U 1 1 5E1E887A
+P 2350 1700
+F 0 "J11" H 2250 1850 50  0000 L CNN
+F 1 "Conn_Coaxial" H 2450 1584 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 2350 1700 50  0001 C CNN
+F 3 " ~" H 2350 1700 50  0001 C CNN
+	1    2350 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J6
+U 1 1 5E1E8C34
+P 900 1700
+F 0 "J6" H 828 1847 50  0000 C CNN
+F 1 "Conn_Coaxial" H 1000 1584 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 900 1700 50  0001 C CNN
+F 3 " ~" H 900 1700 50  0001 C CNN
+	1    900  1700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J1
+U 1 1 5E1E953F
+P 650 1500
+F 0 "J1" H 578 1647 50  0000 C CNN
+F 1 "Conn_Coaxial" H 750 1384 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 650 1500 50  0001 C CNN
+F 3 " ~" H 650 1500 50  0001 C CNN
+	1    650  1500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	850  1500 2400 1500
+$Comp
+L power:GND #PWR01
+U 1 1 5E1EC903
+P 650 1700
+F 0 "#PWR01" H 650 1450 50  0001 C CNN
+F 1 "GND" H 655 1527 50  0000 C CNN
+F 2 "" H 650 1700 50  0001 C CNN
+F 3 "" H 650 1700 50  0001 C CNN
+	1    650  1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5E1ECCD3
+P 900 1900
+F 0 "#PWR06" H 900 1650 50  0001 C CNN
+F 1 "GND" H 905 1727 50  0000 C CNN
+F 2 "" H 900 1900 50  0001 C CNN
+F 3 "" H 900 1900 50  0001 C CNN
+	1    900  1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR011
+U 1 1 5E1ED014
+P 2350 1900
+F 0 "#PWR011" H 2350 1650 50  0001 C CNN
+F 1 "GND" H 2355 1727 50  0000 C CNN
+F 2 "" H 2350 1900 50  0001 C CNN
+F 3 "" H 2350 1900 50  0001 C CNN
+	1    2350 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR016
+U 1 1 5E1ED3C3
+P 2600 1700
+F 0 "#PWR016" H 2600 1450 50  0001 C CNN
+F 1 "GND" H 2605 1527 50  0000 C CNN
+F 2 "" H 2600 1700 50  0001 C CNN
+F 3 "" H 2600 1700 50  0001 C CNN
+	1    2600 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J7
+U 1 1 5E227450
+P 900 2800
+F 0 "J7" H 828 2947 50  0000 C CNN
+F 1 "Conn_Coaxial" H 1000 2684 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 900 2800 50  0001 C CNN
+F 3 " ~" H 900 2800 50  0001 C CNN
+	1    900  2800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J2
+U 1 1 5E227456
+P 650 2600
+F 0 "J2" H 578 2747 50  0000 C CNN
+F 1 "Conn_Coaxial" H 750 2484 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 650 2600 50  0001 C CNN
+F 3 " ~" H 650 2600 50  0001 C CNN
+	1    650  2600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5E22745D
+P 650 2800
+F 0 "#PWR02" H 650 2550 50  0001 C CNN
+F 1 "GND" H 655 2627 50  0000 C CNN
+F 2 "" H 650 2800 50  0001 C CNN
+F 3 "" H 650 2800 50  0001 C CNN
+	1    650  2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5E227463
+P 900 3000
+F 0 "#PWR07" H 900 2750 50  0001 C CNN
+F 1 "GND" H 905 2827 50  0000 C CNN
+F 2 "" H 900 3000 50  0001 C CNN
+F 3 "" H 900 3000 50  0001 C CNN
+	1    900  3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J8
+U 1 1 5E22C964
+P 900 3900
+F 0 "J8" H 828 4047 50  0000 C CNN
+F 1 "Conn_Coaxial" H 1000 3784 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 900 3900 50  0001 C CNN
+F 3 " ~" H 900 3900 50  0001 C CNN
+	1    900  3900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J3
+U 1 1 5E22C96A
+P 650 3700
+F 0 "J3" H 578 3847 50  0000 C CNN
+F 1 "Conn_Coaxial" H 750 3584 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 650 3700 50  0001 C CNN
+F 3 " ~" H 650 3700 50  0001 C CNN
+	1    650  3700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5E22C970
+P 650 3900
+F 0 "#PWR03" H 650 3650 50  0001 C CNN
+F 1 "GND" H 655 3727 50  0000 C CNN
+F 2 "" H 650 3900 50  0001 C CNN
+F 3 "" H 650 3900 50  0001 C CNN
+	1    650  3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 5E22C976
+P 900 4100
+F 0 "#PWR08" H 900 3850 50  0001 C CNN
+F 1 "GND" H 905 3927 50  0000 C CNN
+F 2 "" H 900 4100 50  0001 C CNN
+F 3 "" H 900 4100 50  0001 C CNN
+	1    900  4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J9
+U 1 1 5E22E489
+P 900 5050
+F 0 "J9" H 828 5197 50  0000 C CNN
+F 1 "Conn_Coaxial" H 1000 4934 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 900 5050 50  0001 C CNN
+F 3 " ~" H 900 5050 50  0001 C CNN
+	1    900  5050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J4
+U 1 1 5E22E48F
+P 650 4850
+F 0 "J4" H 578 4997 50  0000 C CNN
+F 1 "Conn_Coaxial" H 750 4734 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 650 4850 50  0001 C CNN
+F 3 " ~" H 650 4850 50  0001 C CNN
+	1    650  4850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5E22E495
+P 650 5050
+F 0 "#PWR04" H 650 4800 50  0001 C CNN
+F 1 "GND" H 655 4877 50  0000 C CNN
+F 2 "" H 650 5050 50  0001 C CNN
+F 3 "" H 650 5050 50  0001 C CNN
+	1    650  5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 5E22E49B
+P 900 5250
+F 0 "#PWR09" H 900 5000 50  0001 C CNN
+F 1 "GND" H 905 5077 50  0000 C CNN
+F 2 "" H 900 5250 50  0001 C CNN
+F 3 "" H 900 5250 50  0001 C CNN
+	1    900  5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J10
+U 1 1 5E22FC0A
+P 900 6050
+F 0 "J10" H 828 6197 50  0000 C CNN
+F 1 "Conn_Coaxial" H 1000 5934 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 900 6050 50  0001 C CNN
+F 3 " ~" H 900 6050 50  0001 C CNN
+	1    900  6050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J5
+U 1 1 5E22FC10
+P 650 5850
+F 0 "J5" H 578 5997 50  0000 C CNN
+F 1 "Conn_Coaxial" H 750 5734 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 650 5850 50  0001 C CNN
+F 3 " ~" H 650 5850 50  0001 C CNN
+	1    650  5850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5E22FC16
+P 650 6050
+F 0 "#PWR05" H 650 5800 50  0001 C CNN
+F 1 "GND" H 655 5877 50  0000 C CNN
+F 2 "" H 650 6050 50  0001 C CNN
+F 3 "" H 650 6050 50  0001 C CNN
+	1    650  6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 5E22FC1C
+P 900 6250
+F 0 "#PWR010" H 900 6000 50  0001 C CNN
+F 1 "GND" H 905 6077 50  0000 C CNN
+F 2 "" H 900 6250 50  0001 C CNN
+F 3 "" H 900 6250 50  0001 C CNN
+	1    900  6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J31
+U 1 1 5E26200C
+P 6150 1750
+F 0 "J31" H 6078 1897 50  0000 C CNN
+F 1 "Conn_Coaxial" H 6250 1634 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 6150 1750 50  0001 C CNN
+F 3 " ~" H 6150 1750 50  0001 C CNN
+	1    6150 1750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J29
+U 1 1 5E262012
+P 5900 1550
+F 0 "J29" H 5828 1697 50  0000 C CNN
+F 1 "Conn_Coaxial" H 6000 1434 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 5900 1550 50  0001 C CNN
+F 3 " ~" H 5900 1550 50  0001 C CNN
+	1    5900 1550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR029
+U 1 1 5E262018
+P 5900 1750
+F 0 "#PWR029" H 5900 1500 50  0001 C CNN
+F 1 "GND" H 5905 1577 50  0000 C CNN
+F 2 "" H 5900 1750 50  0001 C CNN
+F 3 "" H 5900 1750 50  0001 C CNN
+	1    5900 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR031
+U 1 1 5E26201E
+P 6150 1950
+F 0 "#PWR031" H 6150 1700 50  0001 C CNN
+F 1 "GND" H 6155 1777 50  0000 C CNN
+F 2 "" H 6150 1950 50  0001 C CNN
+F 3 "" H 6150 1950 50  0001 C CNN
+	1    6150 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J41
+U 1 1 5E2651AE
+P 8750 1750
+F 0 "J41" H 8678 1897 50  0000 C CNN
+F 1 "Conn_Coaxial" H 8850 1634 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 8750 1750 50  0001 C CNN
+F 3 " ~" H 8750 1750 50  0001 C CNN
+	1    8750 1750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J37
+U 1 1 5E2651B4
+P 8500 1550
+F 0 "J37" H 8428 1697 50  0000 C CNN
+F 1 "Conn_Coaxial" H 8600 1434 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 8500 1550 50  0001 C CNN
+F 3 " ~" H 8500 1550 50  0001 C CNN
+	1    8500 1550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR037
+U 1 1 5E2651BA
+P 8500 1750
+F 0 "#PWR037" H 8500 1500 50  0001 C CNN
+F 1 "GND" H 8505 1577 50  0000 C CNN
+F 2 "" H 8500 1750 50  0001 C CNN
+F 3 "" H 8500 1750 50  0001 C CNN
+	1    8500 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR041
+U 1 1 5E2651C0
+P 8750 1950
+F 0 "#PWR041" H 8750 1700 50  0001 C CNN
+F 1 "GND" H 8755 1777 50  0000 C CNN
+F 2 "" H 8750 1950 50  0001 C CNN
+F 3 "" H 8750 1950 50  0001 C CNN
+	1    8750 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J42
+U 1 1 5E26675B
+P 8750 2850
+F 0 "J42" H 8678 2997 50  0000 C CNN
+F 1 "Conn_Coaxial" H 8850 2734 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 8750 2850 50  0001 C CNN
+F 3 " ~" H 8750 2850 50  0001 C CNN
+	1    8750 2850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J38
+U 1 1 5E266761
+P 8500 2650
+F 0 "J38" H 8428 2797 50  0000 C CNN
+F 1 "Conn_Coaxial" H 8600 2534 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 8500 2650 50  0001 C CNN
+F 3 " ~" H 8500 2650 50  0001 C CNN
+	1    8500 2650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR038
+U 1 1 5E266767
+P 8500 2850
+F 0 "#PWR038" H 8500 2600 50  0001 C CNN
+F 1 "GND" H 8505 2677 50  0000 C CNN
+F 2 "" H 8500 2850 50  0001 C CNN
+F 3 "" H 8500 2850 50  0001 C CNN
+	1    8500 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR042
+U 1 1 5E26676D
+P 8750 3050
+F 0 "#PWR042" H 8750 2800 50  0001 C CNN
+F 1 "GND" H 8755 2877 50  0000 C CNN
+F 2 "" H 8750 3050 50  0001 C CNN
+F 3 "" H 8750 3050 50  0001 C CNN
+	1    8750 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J43
+U 1 1 5E267C50
+P 8750 3850
+F 0 "J43" H 8678 3997 50  0000 C CNN
+F 1 "Conn_Coaxial" H 8850 3734 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 8750 3850 50  0001 C CNN
+F 3 " ~" H 8750 3850 50  0001 C CNN
+	1    8750 3850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J39
+U 1 1 5E267C56
+P 8500 3650
+F 0 "J39" H 8428 3797 50  0000 C CNN
+F 1 "Conn_Coaxial" H 8600 3534 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 8500 3650 50  0001 C CNN
+F 3 " ~" H 8500 3650 50  0001 C CNN
+	1    8500 3650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR039
+U 1 1 5E267C5C
+P 8500 3850
+F 0 "#PWR039" H 8500 3600 50  0001 C CNN
+F 1 "GND" H 8505 3677 50  0000 C CNN
+F 2 "" H 8500 3850 50  0001 C CNN
+F 3 "" H 8500 3850 50  0001 C CNN
+	1    8500 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR043
+U 1 1 5E267C62
+P 8750 4050
+F 0 "#PWR043" H 8750 3800 50  0001 C CNN
+F 1 "GND" H 8755 3877 50  0000 C CNN
+F 2 "" H 8750 4050 50  0001 C CNN
+F 3 "" H 8750 4050 50  0001 C CNN
+	1    8750 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J44
+U 1 1 5E26BBF3
+P 8750 4850
+F 0 "J44" H 8678 4997 50  0000 C CNN
+F 1 "Conn_Coaxial" H 8850 4734 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 8750 4850 50  0001 C CNN
+F 3 " ~" H 8750 4850 50  0001 C CNN
+	1    8750 4850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J40
+U 1 1 5E26BBF9
+P 8500 4650
+F 0 "J40" H 8428 4797 50  0000 C CNN
+F 1 "Conn_Coaxial" H 8600 4534 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 8500 4650 50  0001 C CNN
+F 3 " ~" H 8500 4650 50  0001 C CNN
+	1    8500 4650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR040
+U 1 1 5E26BBFF
+P 8500 4850
+F 0 "#PWR040" H 8500 4600 50  0001 C CNN
+F 1 "GND" H 8505 4677 50  0000 C CNN
+F 2 "" H 8500 4850 50  0001 C CNN
+F 3 "" H 8500 4850 50  0001 C CNN
+	1    8500 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR044
+U 1 1 5E26BC05
+P 8750 5050
+F 0 "#PWR044" H 8750 4800 50  0001 C CNN
+F 1 "GND" H 8755 4877 50  0000 C CNN
+F 2 "" H 8750 5050 50  0001 C CNN
+F 3 "" H 8750 5050 50  0001 C CNN
+	1    8750 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J57
+U 1 1 5E26FC52
+P 12800 1850
+F 0 "J57" H 12728 1997 50  0000 C CNN
+F 1 "Conn_Coaxial" H 12900 1734 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 12800 1850 50  0001 C CNN
+F 3 " ~" H 12800 1850 50  0001 C CNN
+	1    12800 1850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J53
+U 1 1 5E26FC58
+P 12550 1650
+F 0 "J53" H 12478 1797 50  0000 C CNN
+F 1 "Conn_Coaxial" H 12650 1534 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 12550 1650 50  0001 C CNN
+F 3 " ~" H 12550 1650 50  0001 C CNN
+	1    12550 1650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR053
+U 1 1 5E26FC5E
+P 12550 1850
+F 0 "#PWR053" H 12550 1600 50  0001 C CNN
+F 1 "GND" H 12555 1677 50  0000 C CNN
+F 2 "" H 12550 1850 50  0001 C CNN
+F 3 "" H 12550 1850 50  0001 C CNN
+	1    12550 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR057
+U 1 1 5E26FC64
+P 12800 2050
+F 0 "#PWR057" H 12800 1800 50  0001 C CNN
+F 1 "GND" H 12805 1877 50  0000 C CNN
+F 2 "" H 12800 2050 50  0001 C CNN
+F 3 "" H 12800 2050 50  0001 C CNN
+	1    12800 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J76
+U 1 1 5E27D031
+P 12800 3050
+F 0 "J76" H 12728 3197 50  0000 C CNN
+F 1 "Conn_Coaxial" H 12900 2934 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 12800 3050 50  0001 C CNN
+F 3 " ~" H 12800 3050 50  0001 C CNN
+	1    12800 3050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J72
+U 1 1 5E27D037
+P 12550 2850
+F 0 "J72" H 12478 2997 50  0000 C CNN
+F 1 "Conn_Coaxial" H 12650 2734 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 12550 2850 50  0001 C CNN
+F 3 " ~" H 12550 2850 50  0001 C CNN
+	1    12550 2850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR072
+U 1 1 5E27D03D
+P 12550 3050
+F 0 "#PWR072" H 12550 2800 50  0001 C CNN
+F 1 "GND" H 12555 2877 50  0000 C CNN
+F 2 "" H 12550 3050 50  0001 C CNN
+F 3 "" H 12550 3050 50  0001 C CNN
+	1    12550 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR076
+U 1 1 5E27D043
+P 12800 3250
+F 0 "#PWR076" H 12800 3000 50  0001 C CNN
+F 1 "GND" H 12805 3077 50  0000 C CNN
+F 2 "" H 12800 3250 50  0001 C CNN
+F 3 "" H 12800 3250 50  0001 C CNN
+	1    12800 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J62
+U 1 1 5E280CA2
+P 12800 5250
+F 0 "J62" H 12728 5397 50  0000 C CNN
+F 1 "Conn_Coaxial" H 12900 5134 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 12800 5250 50  0001 C CNN
+F 3 " ~" H 12800 5250 50  0001 C CNN
+	1    12800 5250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J61
+U 1 1 5E280CA8
+P 12550 5050
+F 0 "J61" H 12478 5197 50  0000 C CNN
+F 1 "Conn_Coaxial" H 12650 4934 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 12550 5050 50  0001 C CNN
+F 3 " ~" H 12550 5050 50  0001 C CNN
+	1    12550 5050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR061
+U 1 1 5E280CAE
+P 12550 5250
+F 0 "#PWR061" H 12550 5000 50  0001 C CNN
+F 1 "GND" H 12555 5077 50  0000 C CNN
+F 2 "" H 12550 5250 50  0001 C CNN
+F 3 "" H 12550 5250 50  0001 C CNN
+	1    12550 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR062
+U 1 1 5E280CB4
+P 12800 5450
+F 0 "#PWR062" H 12800 5200 50  0001 C CNN
+F 1 "GND" H 12805 5277 50  0000 C CNN
+F 2 "" H 12800 5450 50  0001 C CNN
+F 3 "" H 12800 5450 50  0001 C CNN
+	1    12800 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J77
+U 1 1 5E28DE21
+P 12950 7600
+F 0 "J77" H 12878 7747 50  0000 C CNN
+F 1 "Conn_Coaxial" H 13050 7484 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 12950 7600 50  0001 C CNN
+F 3 " ~" H 12950 7600 50  0001 C CNN
+	1    12950 7600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J73
+U 1 1 5E28DE27
+P 12700 7400
+F 0 "J73" H 12628 7547 50  0000 C CNN
+F 1 "Conn_Coaxial" H 12800 7284 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 12700 7400 50  0001 C CNN
+F 3 " ~" H 12700 7400 50  0001 C CNN
+	1    12700 7400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR073
+U 1 1 5E28DE2D
+P 12700 7600
+F 0 "#PWR073" H 12700 7350 50  0001 C CNN
+F 1 "GND" H 12705 7427 50  0000 C CNN
+F 2 "" H 12700 7600 50  0001 C CNN
+F 3 "" H 12700 7600 50  0001 C CNN
+	1    12700 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR077
+U 1 1 5E28DE33
+P 12950 7800
+F 0 "#PWR077" H 12950 7550 50  0001 C CNN
+F 1 "GND" H 12955 7627 50  0000 C CNN
+F 2 "" H 12950 7800 50  0001 C CNN
+F 3 "" H 12950 7800 50  0001 C CNN
+	1    12950 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J78
+U 1 1 5E28F395
+P 12950 8900
+F 0 "J78" H 12878 9047 50  0000 C CNN
+F 1 "Conn_Coaxial" H 13050 8784 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 12950 8900 50  0001 C CNN
+F 3 " ~" H 12950 8900 50  0001 C CNN
+	1    12950 8900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J74
+U 1 1 5E28F39B
+P 12700 8700
+F 0 "J74" H 12628 8847 50  0000 C CNN
+F 1 "Conn_Coaxial" H 12800 8584 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 12700 8700 50  0001 C CNN
+F 3 " ~" H 12700 8700 50  0001 C CNN
+	1    12700 8700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR074
+U 1 1 5E28F3A1
+P 12700 8900
+F 0 "#PWR074" H 12700 8650 50  0001 C CNN
+F 1 "GND" H 12705 8727 50  0000 C CNN
+F 2 "" H 12700 8900 50  0001 C CNN
+F 3 "" H 12700 8900 50  0001 C CNN
+	1    12700 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR078
+U 1 1 5E28F3A7
+P 12950 9100
+F 0 "#PWR078" H 12950 8850 50  0001 C CNN
+F 1 "GND" H 12955 8927 50  0000 C CNN
+F 2 "" H 12950 9100 50  0001 C CNN
+F 3 "" H 12950 9100 50  0001 C CNN
+	1    12950 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J17
+U 1 1 5E298BFF
+P 2600 2600
+F 0 "J17" H 2500 2750 50  0000 L CNN
+F 1 "Conn_Coaxial" H 2700 2484 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 2600 2600 50  0001 C CNN
+F 3 " ~" H 2600 2600 50  0001 C CNN
+	1    2600 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J12
+U 1 1 5E298C05
+P 2350 2800
+F 0 "J12" H 2250 2950 50  0000 L CNN
+F 1 "Conn_Coaxial" H 2450 2684 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 2350 2800 50  0001 C CNN
+F 3 " ~" H 2350 2800 50  0001 C CNN
+	1    2350 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 5E298C0C
+P 2350 3000
+F 0 "#PWR012" H 2350 2750 50  0001 C CNN
+F 1 "GND" H 2355 2827 50  0000 C CNN
+F 2 "" H 2350 3000 50  0001 C CNN
+F 3 "" H 2350 3000 50  0001 C CNN
+	1    2350 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR017
+U 1 1 5E298C12
+P 2600 2800
+F 0 "#PWR017" H 2600 2550 50  0001 C CNN
+F 1 "GND" H 2605 2627 50  0000 C CNN
+F 2 "" H 2600 2800 50  0001 C CNN
+F 3 "" H 2600 2800 50  0001 C CNN
+	1    2600 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J18
+U 1 1 5E2ADFAD
+P 2600 3700
+F 0 "J18" H 2500 3850 50  0000 L CNN
+F 1 "Conn_Coaxial" H 2700 3584 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 2600 3700 50  0001 C CNN
+F 3 " ~" H 2600 3700 50  0001 C CNN
+	1    2600 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J13
+U 1 1 5E2ADFB3
+P 2350 3900
+F 0 "J13" H 2250 4050 50  0000 L CNN
+F 1 "Conn_Coaxial" H 2450 3784 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 2350 3900 50  0001 C CNN
+F 3 " ~" H 2350 3900 50  0001 C CNN
+	1    2350 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 5E2ADFB9
+P 2350 4100
+F 0 "#PWR013" H 2350 3850 50  0001 C CNN
+F 1 "GND" H 2355 3927 50  0000 C CNN
+F 2 "" H 2350 4100 50  0001 C CNN
+F 3 "" H 2350 4100 50  0001 C CNN
+	1    2350 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR018
+U 1 1 5E2ADFBF
+P 2600 3900
+F 0 "#PWR018" H 2600 3650 50  0001 C CNN
+F 1 "GND" H 2605 3727 50  0000 C CNN
+F 2 "" H 2600 3900 50  0001 C CNN
+F 3 "" H 2600 3900 50  0001 C CNN
+	1    2600 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J19
+U 1 1 5E2AFA5F
+P 2600 4850
+F 0 "J19" H 2500 5000 50  0000 L CNN
+F 1 "Conn_Coaxial" H 2700 4734 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 2600 4850 50  0001 C CNN
+F 3 " ~" H 2600 4850 50  0001 C CNN
+	1    2600 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J14
+U 1 1 5E2AFA65
+P 2350 5050
+F 0 "J14" H 2250 5200 50  0000 L CNN
+F 1 "Conn_Coaxial" H 2450 4934 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 2350 5050 50  0001 C CNN
+F 3 " ~" H 2350 5050 50  0001 C CNN
+	1    2350 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR014
+U 1 1 5E2AFA6B
+P 2350 5250
+F 0 "#PWR014" H 2350 5000 50  0001 C CNN
+F 1 "GND" H 2355 5077 50  0000 C CNN
+F 2 "" H 2350 5250 50  0001 C CNN
+F 3 "" H 2350 5250 50  0001 C CNN
+	1    2350 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR019
+U 1 1 5E2AFA71
+P 2600 5050
+F 0 "#PWR019" H 2600 4800 50  0001 C CNN
+F 1 "GND" H 2605 4877 50  0000 C CNN
+F 2 "" H 2600 5050 50  0001 C CNN
+F 3 "" H 2600 5050 50  0001 C CNN
+	1    2600 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J20
+U 1 1 5E2B137F
+P 2600 5850
+F 0 "J20" H 2500 6000 50  0000 L CNN
+F 1 "Conn_Coaxial" H 2700 5734 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 2600 5850 50  0001 C CNN
+F 3 " ~" H 2600 5850 50  0001 C CNN
+	1    2600 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J15
+U 1 1 5E2B1385
+P 2350 6050
+F 0 "J15" H 2250 6200 50  0000 L CNN
+F 1 "Conn_Coaxial" H 2450 5934 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 2350 6050 50  0001 C CNN
+F 3 " ~" H 2350 6050 50  0001 C CNN
+	1    2350 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR015
+U 1 1 5E2B138B
+P 2350 6250
+F 0 "#PWR015" H 2350 6000 50  0001 C CNN
+F 1 "GND" H 2355 6077 50  0000 C CNN
+F 2 "" H 2350 6250 50  0001 C CNN
+F 3 "" H 2350 6250 50  0001 C CNN
+	1    2350 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR020
+U 1 1 5E2B1391
+P 2600 6050
+F 0 "#PWR020" H 2600 5800 50  0001 C CNN
+F 1 "GND" H 2605 5877 50  0000 C CNN
+F 2 "" H 2600 6050 50  0001 C CNN
+F 3 "" H 2600 6050 50  0001 C CNN
+	1    2600 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J35
+U 1 1 5E2BA385
+P 7850 1550
+F 0 "J35" H 7750 1700 50  0000 L CNN
+F 1 "Conn_Coaxial" H 7950 1434 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 7850 1550 50  0001 C CNN
+F 3 " ~" H 7850 1550 50  0001 C CNN
+	1    7850 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J33
+U 1 1 5E2BA38B
+P 7600 1750
+F 0 "J33" H 7500 1900 50  0000 L CNN
+F 1 "Conn_Coaxial" H 7700 1634 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 7600 1750 50  0001 C CNN
+F 3 " ~" H 7600 1750 50  0001 C CNN
+	1    7600 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR033
+U 1 1 5E2BA391
+P 7600 1950
+F 0 "#PWR033" H 7600 1700 50  0001 C CNN
+F 1 "GND" H 7605 1777 50  0000 C CNN
+F 2 "" H 7600 1950 50  0001 C CNN
+F 3 "" H 7600 1950 50  0001 C CNN
+	1    7600 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR035
+U 1 1 5E2BA397
+P 7850 1750
+F 0 "#PWR035" H 7850 1500 50  0001 C CNN
+F 1 "GND" H 7855 1577 50  0000 C CNN
+F 2 "" H 7850 1750 50  0001 C CNN
+F 3 "" H 7850 1750 50  0001 C CNN
+	1    7850 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J49
+U 1 1 5E2BF3FB
+P 10450 1550
+F 0 "J49" H 10350 1700 50  0000 L CNN
+F 1 "Conn_Coaxial" H 10550 1434 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 10450 1550 50  0001 C CNN
+F 3 " ~" H 10450 1550 50  0001 C CNN
+	1    10450 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J45
+U 1 1 5E2BF401
+P 10200 1750
+F 0 "J45" H 10100 1900 50  0000 L CNN
+F 1 "Conn_Coaxial" H 10300 1634 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 10200 1750 50  0001 C CNN
+F 3 " ~" H 10200 1750 50  0001 C CNN
+	1    10200 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR045
+U 1 1 5E2BF407
+P 10200 1950
+F 0 "#PWR045" H 10200 1700 50  0001 C CNN
+F 1 "GND" H 10205 1777 50  0000 C CNN
+F 2 "" H 10200 1950 50  0001 C CNN
+F 3 "" H 10200 1950 50  0001 C CNN
+	1    10200 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR049
+U 1 1 5E2BF40D
+P 10450 1750
+F 0 "#PWR049" H 10450 1500 50  0001 C CNN
+F 1 "GND" H 10455 1577 50  0000 C CNN
+F 2 "" H 10450 1750 50  0001 C CNN
+F 3 "" H 10450 1750 50  0001 C CNN
+	1    10450 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J50
+U 1 1 5E2C0BD1
+P 10450 2650
+F 0 "J50" H 10350 2800 50  0000 L CNN
+F 1 "Conn_Coaxial" H 10550 2534 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 10450 2650 50  0001 C CNN
+F 3 " ~" H 10450 2650 50  0001 C CNN
+	1    10450 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J46
+U 1 1 5E2C0BD7
+P 10200 2850
+F 0 "J46" H 10100 3000 50  0000 L CNN
+F 1 "Conn_Coaxial" H 10300 2734 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 10200 2850 50  0001 C CNN
+F 3 " ~" H 10200 2850 50  0001 C CNN
+	1    10200 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR046
+U 1 1 5E2C0BDD
+P 10200 3050
+F 0 "#PWR046" H 10200 2800 50  0001 C CNN
+F 1 "GND" H 10205 2877 50  0000 C CNN
+F 2 "" H 10200 3050 50  0001 C CNN
+F 3 "" H 10200 3050 50  0001 C CNN
+	1    10200 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR050
+U 1 1 5E2C0BE3
+P 10450 2850
+F 0 "#PWR050" H 10450 2600 50  0001 C CNN
+F 1 "GND" H 10455 2677 50  0000 C CNN
+F 2 "" H 10450 2850 50  0001 C CNN
+F 3 "" H 10450 2850 50  0001 C CNN
+	1    10450 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J51
+U 1 1 5E2C559F
+P 10450 3650
+F 0 "J51" H 10350 3800 50  0000 L CNN
+F 1 "Conn_Coaxial" H 10550 3534 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 10450 3650 50  0001 C CNN
+F 3 " ~" H 10450 3650 50  0001 C CNN
+	1    10450 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J47
+U 1 1 5E2C55A5
+P 10200 3850
+F 0 "J47" H 10100 4000 50  0000 L CNN
+F 1 "Conn_Coaxial" H 10300 3734 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 10200 3850 50  0001 C CNN
+F 3 " ~" H 10200 3850 50  0001 C CNN
+	1    10200 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR047
+U 1 1 5E2C55AB
+P 10200 4050
+F 0 "#PWR047" H 10200 3800 50  0001 C CNN
+F 1 "GND" H 10205 3877 50  0000 C CNN
+F 2 "" H 10200 4050 50  0001 C CNN
+F 3 "" H 10200 4050 50  0001 C CNN
+	1    10200 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR051
+U 1 1 5E2C55B1
+P 10450 3850
+F 0 "#PWR051" H 10450 3600 50  0001 C CNN
+F 1 "GND" H 10455 3677 50  0000 C CNN
+F 2 "" H 10450 3850 50  0001 C CNN
+F 3 "" H 10450 3850 50  0001 C CNN
+	1    10450 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J52
+U 1 1 5E2C6FD5
+P 10450 4650
+F 0 "J52" H 10350 4800 50  0000 L CNN
+F 1 "Conn_Coaxial" H 10550 4534 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 10450 4650 50  0001 C CNN
+F 3 " ~" H 10450 4650 50  0001 C CNN
+	1    10450 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J48
+U 1 1 5E2C6FDB
+P 10200 4850
+F 0 "J48" H 10100 5000 50  0000 L CNN
+F 1 "Conn_Coaxial" H 10300 4734 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 10200 4850 50  0001 C CNN
+F 3 " ~" H 10200 4850 50  0001 C CNN
+	1    10200 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR048
+U 1 1 5E2C6FE1
+P 10200 5050
+F 0 "#PWR048" H 10200 4800 50  0001 C CNN
+F 1 "GND" H 10205 4877 50  0000 C CNN
+F 2 "" H 10200 5050 50  0001 C CNN
+F 3 "" H 10200 5050 50  0001 C CNN
+	1    10200 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR052
+U 1 1 5E2C6FE7
+P 10450 4850
+F 0 "#PWR052" H 10450 4600 50  0001 C CNN
+F 1 "GND" H 10455 4677 50  0000 C CNN
+F 2 "" H 10450 4850 50  0001 C CNN
+F 3 "" H 10450 4850 50  0001 C CNN
+	1    10450 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J67
+U 1 1 5E2C97E5
+P 14350 1650
+F 0 "J67" H 14250 1800 50  0000 L CNN
+F 1 "Conn_Coaxial" H 14450 1534 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 14350 1650 50  0001 C CNN
+F 3 " ~" H 14350 1650 50  0001 C CNN
+	1    14350 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J63
+U 1 1 5E2C97EB
+P 14100 1850
+F 0 "J63" H 14000 2000 50  0000 L CNN
+F 1 "Conn_Coaxial" H 14200 1734 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 14100 1850 50  0001 C CNN
+F 3 " ~" H 14100 1850 50  0001 C CNN
+	1    14100 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR063
+U 1 1 5E2C97F1
+P 14100 2050
+F 0 "#PWR063" H 14100 1800 50  0001 C CNN
+F 1 "GND" H 14105 1877 50  0000 C CNN
+F 2 "" H 14100 2050 50  0001 C CNN
+F 3 "" H 14100 2050 50  0001 C CNN
+	1    14100 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR067
+U 1 1 5E2C97F7
+P 14350 1850
+F 0 "#PWR067" H 14350 1600 50  0001 C CNN
+F 1 "GND" H 14355 1677 50  0000 C CNN
+F 2 "" H 14350 1850 50  0001 C CNN
+F 3 "" H 14350 1850 50  0001 C CNN
+	1    14350 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J86
+U 1 1 5E2CF103
+P 14350 2850
+F 0 "J86" H 14250 3000 50  0000 L CNN
+F 1 "Conn_Coaxial" H 14450 2734 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 14350 2850 50  0001 C CNN
+F 3 " ~" H 14350 2850 50  0001 C CNN
+	1    14350 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J82
+U 1 1 5E2CF109
+P 14100 3050
+F 0 "J82" H 14000 3200 50  0000 L CNN
+F 1 "Conn_Coaxial" H 14200 2934 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 14100 3050 50  0001 C CNN
+F 3 " ~" H 14100 3050 50  0001 C CNN
+	1    14100 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR082
+U 1 1 5E2CF10F
+P 14100 3250
+F 0 "#PWR082" H 14100 3000 50  0001 C CNN
+F 1 "GND" H 14105 3077 50  0000 C CNN
+F 2 "" H 14100 3250 50  0001 C CNN
+F 3 "" H 14100 3250 50  0001 C CNN
+	1    14100 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR086
+U 1 1 5E2CF115
+P 14350 3050
+F 0 "#PWR086" H 14350 2800 50  0001 C CNN
+F 1 "GND" H 14355 2877 50  0000 C CNN
+F 2 "" H 14350 3050 50  0001 C CNN
+F 3 "" H 14350 3050 50  0001 C CNN
+	1    14350 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J80
+U 1 1 5E2D4CD1
+P 14350 5050
+F 0 "J80" H 14250 5200 50  0000 L CNN
+F 1 "Conn_Coaxial" H 14450 4934 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 14350 5050 50  0001 C CNN
+F 3 " ~" H 14350 5050 50  0001 C CNN
+	1    14350 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J79
+U 1 1 5E2D4CD7
+P 14100 5250
+F 0 "J79" H 14000 5400 50  0000 L CNN
+F 1 "Conn_Coaxial" H 14200 5134 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 14100 5250 50  0001 C CNN
+F 3 " ~" H 14100 5250 50  0001 C CNN
+	1    14100 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR079
+U 1 1 5E2D4CDD
+P 14100 5450
+F 0 "#PWR079" H 14100 5200 50  0001 C CNN
+F 1 "GND" H 14105 5277 50  0000 C CNN
+F 2 "" H 14100 5450 50  0001 C CNN
+F 3 "" H 14100 5450 50  0001 C CNN
+	1    14100 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR080
+U 1 1 5E2D4CE3
+P 14350 5250
+F 0 "#PWR080" H 14350 5000 50  0001 C CNN
+F 1 "GND" H 14355 5077 50  0000 C CNN
+F 2 "" H 14350 5250 50  0001 C CNN
+F 3 "" H 14350 5250 50  0001 C CNN
+	1    14350 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J87
+U 1 1 5E2DB73D
+P 14500 7400
+F 0 "J87" H 14400 7550 50  0000 L CNN
+F 1 "Conn_Coaxial" H 14600 7284 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 14500 7400 50  0001 C CNN
+F 3 " ~" H 14500 7400 50  0001 C CNN
+	1    14500 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J83
+U 1 1 5E2DB743
+P 14250 7600
+F 0 "J83" H 14150 7750 50  0000 L CNN
+F 1 "Conn_Coaxial" H 14350 7484 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 14250 7600 50  0001 C CNN
+F 3 " ~" H 14250 7600 50  0001 C CNN
+	1    14250 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR083
+U 1 1 5E2DB749
+P 14250 7800
+F 0 "#PWR083" H 14250 7550 50  0001 C CNN
+F 1 "GND" H 14255 7627 50  0000 C CNN
+F 2 "" H 14250 7800 50  0001 C CNN
+F 3 "" H 14250 7800 50  0001 C CNN
+	1    14250 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR087
+U 1 1 5E2DB74F
+P 14500 7600
+F 0 "#PWR087" H 14500 7350 50  0001 C CNN
+F 1 "GND" H 14505 7427 50  0000 C CNN
+F 2 "" H 14500 7600 50  0001 C CNN
+F 3 "" H 14500 7600 50  0001 C CNN
+	1    14500 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J88
+U 1 1 5E2DD14F
+P 14500 8700
+F 0 "J88" H 14400 8850 50  0000 L CNN
+F 1 "Conn_Coaxial" H 14600 8584 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 14500 8700 50  0001 C CNN
+F 3 " ~" H 14500 8700 50  0001 C CNN
+	1    14500 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J84
+U 1 1 5E2DD155
+P 14250 8900
+F 0 "J84" H 14150 9050 50  0000 L CNN
+F 1 "Conn_Coaxial" H 14350 8784 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 14250 8900 50  0001 C CNN
+F 3 " ~" H 14250 8900 50  0001 C CNN
+	1    14250 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR084
+U 1 1 5E2DD15B
+P 14250 9100
+F 0 "#PWR084" H 14250 8850 50  0001 C CNN
+F 1 "GND" H 14255 8927 50  0000 C CNN
+F 2 "" H 14250 9100 50  0001 C CNN
+F 3 "" H 14250 9100 50  0001 C CNN
+	1    14250 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR088
+U 1 1 5E2DD161
+P 14500 8900
+F 0 "#PWR088" H 14500 8650 50  0001 C CNN
+F 1 "GND" H 14505 8727 50  0000 C CNN
+F 2 "" H 14500 8900 50  0001 C CNN
+F 3 "" H 14500 8900 50  0001 C CNN
+	1    14500 8900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	850  2600 1500 2600
+Wire Wire Line
+	1800 2600 2400 2600
+Wire Wire Line
+	850  3700 2400 3700
+Wire Wire Line
+	850  4850 2400 4850
+Wire Wire Line
+	850  5850 2400 5850
+Wire Wire Line
+	6100 1550 7650 1550
+Wire Wire Line
+	8700 1550 10250 1550
+Wire Wire Line
+	9650 2650 10250 2650
+Wire Wire Line
+	8700 2650 9350 2650
+Wire Wire Line
+	9650 3650 10250 3650
+Wire Wire Line
+	9650 4650 10250 4650
+Wire Wire Line
+	8700 4650 9350 4650
+Wire Wire Line
+	13900 1650 14150 1650
+Wire Wire Line
+	12750 1650 13000 1650
+Wire Wire Line
+	13000 2850 12750 2850
+Wire Wire Line
+	13900 2850 14150 2850
+Wire Wire Line
+	13900 5050 14150 5050
+Wire Wire Line
+	12750 5050 13000 5050
+Wire Wire Line
+	13150 8700 12900 8700
+Wire Wire Line
+	12900 7400 13150 7400
+Wire Wire Line
+	14050 7400 14300 7400
+Wire Wire Line
+	14300 8700 14050 8700
+Wire Wire Line
+	8700 3650 9350 3650
+Text Notes 13350 8300 0    50   ~ 0
+0.3 mm separation 
+Text Notes 13150 7050 0    50   ~ 0
+0.5 mm separation 
+$Comp
+L Device:C C30
+U 1 1 5E154458
+P 13600 8900
+F 0 "C30" V 13450 8900 50  0000 C CNN
+F 1 "0.1uF" V 13350 8900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 13638 8750 50  0001 C CNN
+F 3 "~" H 13600 8900 50  0001 C CNN
+	1    13600 8900
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:C C29
+U 1 1 5E154452
+P 13600 8700
+F 0 "C29" V 13348 8700 50  0000 C CNN
+F 1 "0.1uF" V 13439 8700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 13638 8550 50  0001 C CNN
+F 3 "~" H 13600 8700 50  0001 C CNN
+	1    13600 8700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C28
+U 1 1 5DC289AD
+P 13600 7600
+F 0 "C28" V 13450 7600 50  0000 C CNN
+F 1 "0.1uF" V 13350 7600 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 13638 7450 50  0001 C CNN
+F 3 "~" H 13600 7600 50  0001 C CNN
+	1    13600 7600
+	0    1    -1   0   
+$EndComp
+$EndSCHEMATC
